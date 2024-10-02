@@ -1,6 +1,6 @@
 class Main {
   constructor() {
-    console.log("Hello World!");
+    console.log("Initializing Side Panel");
   }
 }
 

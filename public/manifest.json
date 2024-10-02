@@ -9,7 +9,8 @@
   "permissions": [
       "activeTab",
       "scripting",
-      "storage"
+      "storage",
+      "sidePanel"
   ],
   "content_scripts": [
       {
@@ -21,6 +22,10 @@
           ]
       }
   ],
+  "side_panel": {
+    "default_path": "popup.html",
+    "default_title": "Click to open panel"
+  },
   "action": {
       "default_popup": "index.html"
   },
