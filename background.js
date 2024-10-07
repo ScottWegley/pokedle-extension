@@ -1,0 +1,1 @@
+console.log("Pokedle Assistant Loaded");

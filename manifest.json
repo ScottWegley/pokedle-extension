@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "pokedle-assistant",
+    "version": 1.0,
+
+    "description": "An extension to provide context relvant information based on your current Pokedle game.",
+    
+    "background": {
+        "scripts": "background.js"
+    },
+
+    "permissions": ["menus"],
+
+    "content_script": [
+        {
+            "matches": ["*://*.pokedle.com/*"],
+            "js": ["app.js"]
+        }
+    ]
+}
